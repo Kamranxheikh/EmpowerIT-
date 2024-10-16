@@ -4,7 +4,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="bg-black text-white py-20">
-            <h2 className="sm:text-6xl text-4xl mb-4 pl-3 sm:pl-12">LOGO</h2>
+            <h2 className="sm:text-6xl text-center sm:text-left text-4xl mb-4 pl-3 sm:pl-12">LOGO</h2>
 
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
 
@@ -17,8 +17,8 @@ const Footer = () => {
                     </p>
                 </div>
 
-                <div className="mb-6 md:mb-0 md:w-1/4 sm:pl-8">
-                    <h3 className="text-xl font-semibold mb-4">Services</h3>
+                <div className="mb-6 md:mb-0 md:w-1/4 sm:pl-8 text-center sm:text-left">
+                    <h3 className="text-xl font-semibold mb-4 ">Services</h3>
                     <ul>
                         <li className="mb-2">Web Development</li>
                         <li className="mb-2">UI/UX Design</li>
@@ -27,7 +27,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="mb-6 md:mb-0 md:w-1/4">
+                <div className="mb-6 md:mb-0 md:w-1/4 text-center sm:text-left">
                     <h3 className="text-xl font-semibold mb-4">Useful Links</h3>
                     <ul>
                         <li className="mb-2">Lorem</li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </div>
 
                 <div className="md:w-1/4">
-                    <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+                    <h3 className="text-xl font-semibold mb-4 text-center sm:text-left">Follow Us</h3>
                     <div className=' sm:grid flex justify-center sm:justify-start items-center'>
                         <div className="sm:flex sm:space-x-4 flex justify-center items-center">
                             <a href="#" className="text-pink-500">
