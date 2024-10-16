@@ -74,9 +74,9 @@ const Header3 = () => {
   };
 
   return (
-    <div className='bg-black h-[85vh] sm:h-[110vh]'>
+    <div className='bg-black h-[90vh] sm:h-[110vh]'>
       <img 
-          className='md:h-[110vh] h-[85vh] w-[80%] md:w-[60%] absolute right-0 top-0
+          className='md:h-[110vh] h-[90vh] w-[80%] md:w-[60%] absolute right-0 top-0
           duration-500 ease-in-out sm:mb-0 mb-12 transform hover:-translate-y-1 hover:scale-105' 
           src={Rectangle37} 
           alt="" 
@@ -127,13 +127,15 @@ const Header3 = () => {
 
       <div className='bg-opacity-5 text-white'>
           <h1 className='md:pt-16 md:px-16 md:tracking-wider text-center 
-          md:text-left md:text-8xl text-2xl py-10 sm:py-0 font-bold bg-opacity-5 relative'>
+          md:text-left md:text-8xl text-2xl py-16 sm:py-0 font-bold bg-opacity-5 relative'>
               WEB <br /> DEVELOPMENT
               <br />
               <span className='md:pl-72 sm:pl-0 sm:justify-left justify-center items-center'></span>
           </h1>
           <p className='md:px-16 md:text-lg py-10 md:py-0 px-3 text-sm md:tracking-widest bg-opacity-5 relative md:w-[75%]'>
               Delivering cutting-edge digital solutions tailored to your business needs
+              Delivering cutting-edge digital solutions tailored to your business needs
+
           </p>
           <div className='flex pt-10 md:space-x-12 space-x-2 justify-center items-center md:w-[65%] bg-opacity-5 relative'>
               <button className='md:tracking-wider bg-violet-500 border-2 border-violet-500 py-2 md:py-3 px-3 md:px-8 text-white mt-10'>

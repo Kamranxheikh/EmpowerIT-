@@ -19,9 +19,9 @@ const Header = () => {
 
     return (
         <>
-            <div className='bg-black h-[85vh] sm:h-[110vh] '>
+            <div className='bg-black h-[90vh] sm:h-[110vh] '>
                 <img
-                    className='md:h-[110vh] h-[85vh] w-[80%] md:w-[60%] absolute right-0 top-0'
+                    className='md:h-[110vh] h-[90vh] w-[80%] md:w-[60%] absolute right-0 top-0'
                     src={hadr}
                     alt="Header"
                 />
@@ -71,12 +71,12 @@ const Header = () => {
                 )}
 
                 <div className='bg-opacity-5 text-white'>
-                    <h1 className='md:py-24 md:px-16 md:tracking-wider py-9 text-center 
+                    <h1 className='md:py-24 md:px-16 md:tracking-wider py-16 text-center 
                       md:text-left md:text-5xl text-xl font-bold bg-opacity-5 relative'>
                         Empowering Your Business with IT <br />
                         <span className='md:pl-72 sm:pl-0 sm:justify-left justify-center items-center'>Innovation</span>
                     </h1>
-                    <p className='md:px-16 md:text-lg py-5 px-3 text-sm md:tracking-widest text-center bg-opacity-5 relative md:w-[75%]'>
+                    <p className='md:px-16 md:text-lg py-8 px-3 text-sm md:tracking-widest text-center bg-opacity-5 relative md:w-[75%]'>
                         We specialize in delivering cutting-edge IT services tailored to meet the unique needs of
                         businesses across industries. Our expert team is dedicated to providing comprehensive
                         solutions that drive efficiency, enhance security, and foster innovation.
