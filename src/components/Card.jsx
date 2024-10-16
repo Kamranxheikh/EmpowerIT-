@@ -2,11 +2,6 @@ import React from 'react';
 import { IoIosStar } from "react-icons/io";
 import Rectangle55 from '../assets/pictures/Rectangle55.png';
 
-
-
-
-
-
 const Card = () => {
   return (
     <div className="sm:w-1/4 sm:h-[300px] w-full h-full mb-12 sm:mb-0  bg-white  rounded-lg  shadow-2xl  ">

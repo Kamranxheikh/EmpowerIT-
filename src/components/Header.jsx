@@ -36,7 +36,7 @@ const Header = () => {
                     </div>
                     <div className='space-x-10 text-sm hidden sm:flex  md:flex  '>
                         {navItems.map((item, index) => (
-                            <Link key={index} to={item.href}>{item.label}</Link>
+                            <Link className='hover:underline' key={index} to={item.href}>{item.label} </Link>
                         ))}
                         {/* <Link to="/">HOME</Link>
                         <Link to="/about">ABOUT</Link>
@@ -55,7 +55,7 @@ const Header = () => {
                         <ul className='space-y-4 '>
                             {navItems.map((item, index) => (
                                 <li key={index} className=''>
-                                    <Link to={item.href} className='hover:text-underline flex justify-center items-center' >{item.label}</Link>
+                                    <Link to={item.href} className='flex justify-center items-center hover:underline' >{item.label}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -71,7 +71,7 @@ const Header = () => {
                 )}
 
                 <div className='bg-opacity-5 text-white'>
-                    <h1 className='md:py-24 md:px-16 md:tracking-wider py-16 text-center 
+                    <h1 className='md:py-20 md:px-16 md:tracking-wider py-16 text-center 
                       md:text-left md:text-5xl text-xl font-bold bg-opacity-5 relative'>
                         Empowering Your Business with IT <br />
                         <span className='md:pl-72 sm:pl-0 sm:justify-left justify-center items-center'>Innovation</span>

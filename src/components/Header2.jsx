@@ -56,15 +56,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 import React, { useState } from 'react';
 import Rectangle37 from '../assets/pictures/Rectangle37.png';
 import { Link } from 'react-router-dom';
@@ -134,9 +125,8 @@ const Header2 = () => {
                     </div>
                 </div>
             )}
-
             <div className='bg-opacity-5 text-white'>
-                <h1 className='md:pt-24 md:px-16 md:tracking-wider py-20 text-center 
+                <h1 className='md:pt-20 md:px-16 md:tracking-wider py-20 text-center 
                     md:text-left md:text-8xl text-2xl font-bold bg-opacity-5 relative'>
                     OUR SERVICES
                     <br />
