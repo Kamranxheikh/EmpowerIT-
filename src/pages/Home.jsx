@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header'
+import Header from '../components/Header'
 import Git from '../components/Git'
 import Img from '../components/Img'
 import That from '../components/That'
