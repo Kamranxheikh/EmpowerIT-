@@ -30,7 +30,7 @@ const Header = () => {
                         <h1 className='my-2 mx-3 text-xl font-bold'>YOUR LOGO</h1>
                     </div>
                     <div className='lg:hidden md:flex flex-col  justify-end'>
-                        <button onClick={toggleMenu} className='flex items-center justify-center w-10 h-10 rounded-full bg-neutral-700/80 hover:bg-neutral-700/90'>
+                        <button onClick={toggleMenu} className='fixed top-0 right-0 flex items-center justify-center w-10 h-10 rounded-full bg-neutral-700/80 hover:bg-neutral-700/90'>
                             {mobileDrawerOpen ? <X /> : <Menu />}
                         </button>
                     </div>
