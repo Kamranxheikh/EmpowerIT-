@@ -2,8 +2,6 @@ import React from 'react'
 import { FaCog, FaBolt, FaMoneyBill, FaUser } from 'react-icons/fa';
 import That1 from '../components/That1'
 
-
-
 const Hire = () => {
   
     return (

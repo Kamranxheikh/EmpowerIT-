@@ -3,9 +3,6 @@ import t from '../assets/pictures/t.png'
 import u from '../assets/pictures/u.png'
 import v from '../assets/pictures/v.png'
 
-
-
-
 const Offering = () => {
     const offeringData = [
         {

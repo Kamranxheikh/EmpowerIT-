@@ -80,15 +80,6 @@ const TestimonialCard1 = () => {
                 <button onClick={nextCard} className="text-3xl sm:p-2 sm:mx-4 ">
                     <IoIosArrowForward  className='sm:size-20 size-10' />
                 </button>
-                {/* <div className="absolute bottom-10 flex space-x-2">
-                    {testimonials.map((_, index) => (
-                        <span
-                            key={index}
-                            className={`h-2 w-2 rounded-full ${index === currentIndex ? 'bg-black' : 'bg-gray-400'
-                                }`}
-                        ></span>
-                    ))}
-                </div> */}
             </div>
         </>
     );

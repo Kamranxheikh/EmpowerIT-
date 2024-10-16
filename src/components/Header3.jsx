@@ -96,7 +96,7 @@ const Header3 = () => {
         </div>
         <div className='space-x-10 text-sm hidden sm:flex md:flex'>
           {navItems.map((item, index) => (
-              <Link key={index} to={item.href}>{item.label}</Link>
+              <Link className='hover:underline' key={index} to={item.href}>{item.label}</Link>
           ))}
         </div>
         <div className='space-x-10 hidden md:flex'>
@@ -110,7 +110,7 @@ const Header3 = () => {
               <ul className='space-y-4'>
                   {navItems.map((item, index) => (
                       <li key={index} className=''>
-                          <Link to={item.href} className='hover:text-underline flex justify-center items-center'>{item.label}</Link>
+                          <Link to={item.href} className='hover:underline flex justify-center items-center'>{item.label}</Link>
                       </li>
                   ))}
               </ul>

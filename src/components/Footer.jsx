@@ -7,7 +7,6 @@ const Footer = () => {
             <h2 className="sm:text-6xl text-4xl mb-4 pl-3 sm:pl-12">LOGO</h2>
 
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between">
-                {/* Logo and Description */}
 
                 <div className="mb-6 md:mb-0 md:w-1/4">
                     <p className="text-sm leading-relaxed">
@@ -18,7 +17,6 @@ const Footer = () => {
                     </p>
                 </div>
 
-                {/* Services */}
                 <div className="mb-6 md:mb-0 md:w-1/4 sm:pl-8">
                     <h3 className="text-xl font-semibold mb-4">Services</h3>
                     <ul>
@@ -29,7 +27,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Useful Links */}
                 <div className="mb-6 md:mb-0 md:w-1/4">
                     <h3 className="text-xl font-semibold mb-4">Useful Links</h3>
                     <ul>
@@ -40,7 +37,6 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Social Media Links */}
                 <div className="md:w-1/4">
                     <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
                     <div className=' sm:grid flex justify-center sm:justify-start items-center'>

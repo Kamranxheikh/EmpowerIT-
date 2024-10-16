@@ -1,7 +1,6 @@
 import React from 'react'
 import m1 from '../assets/pictures/m1.png'
 
-
 const Mission = () => {
     const missionData = [
 
@@ -20,7 +19,6 @@ const Mission = () => {
                             <img src={m1} alt='m1' className=' duration-500 ease-in-out sm:mb-0 mb-12 transform hover:-translate-y-1 hover:scale-105 sm:h-[500px] h-[300px]' />
                         </div>
                         <div>
-                            {/* <h1 className='text-5xl font-semibold mb-20'>{item.intro}</h1> */}
                             <div className=" my-5 sm:mb-20 ">
                                 <h1 className="sm:text-5xl sm:justify-start sm:items-start flex justify-center items-center  text-2xl font-semibold">Our Mission</h1>
                                 <div className="flex  mt-2 justify-center items-center sm:justify-start sm:items-start">

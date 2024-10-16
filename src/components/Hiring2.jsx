@@ -1,7 +1,6 @@
 import React from 'react'
 import img2 from '../assets/pictures/img2.png'
 
-
 const Hiring2 = () => {
     const hiring = [
         {

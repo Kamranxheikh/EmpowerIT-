@@ -5,9 +5,6 @@ import Rectangle14 from '../assets/pictures/Rectangle14.png'
 import Rectangle15 from '../assets/pictures/Rectangle15.png'
 import { FaCog, FaBolt, FaMoneyBill, FaUser } from 'react-icons/fa';
 
-
-
-
 const Section = () => {
     return (
         <>

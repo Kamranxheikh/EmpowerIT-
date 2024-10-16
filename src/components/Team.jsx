@@ -4,14 +4,10 @@ import { MdFacebook } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
-
-
-
 const Team = () => {
     const teamData = [
 
         {
-            // image: 'Ractangle55',
             name: 'Member Name',
             company: "Position in Company",
             icon1: <MdFacebook size={35} />,
@@ -19,7 +15,6 @@ const Team = () => {
             icon3: <FaLinkedin size={35}/>,
         },
         {
-            // image: Ractangle55,
             name: 'Member Name',
             company: "Position in Company",
             icon1: <MdFacebook size={35}/>,
@@ -27,7 +22,6 @@ const Team = () => {
             icon3: <FaLinkedin size={35}/>
         },
         {
-            // image: Ractangle55,
             name: 'Member Name',
             company: "Position in Company",
             icon1: <MdFacebook size={35} />,
@@ -35,7 +29,6 @@ const Team = () => {
             icon3: <FaLinkedin size={35} />,
         },
         {
-            // image: Ractangle55,
             name: 'Member Name',
             company: "Position in Company",
             icon1: <MdFacebook size={35} />,

@@ -1,7 +1,6 @@
 import React from 'react'
 import img1 from '../assets/pictures/img1.png';
 
-
 const Img = () => {
     return (
         <>
